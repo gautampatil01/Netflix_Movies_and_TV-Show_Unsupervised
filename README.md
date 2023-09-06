@@ -20,3 +20,36 @@ https://github.com/gautampatil-groot/Netflix_Movies_and_TV-Show_Unsupervised
 
 
 **This dataset consists of tv shows and movies available on Netflix as of 2019. The dataset is collected from Flixable which is a third-party Netflix search engine. In 2018, they released an interesting report which shows that the number of TV shows on Netflix has nearly tripled since 2010. The streaming service's number of movies has decreased by more than 2,000 titles since 2010, while its number of TV shows has nearly tripled. It will be interesting to explore what all other insights can be obtained from the same dataset.**
+
+# **Conclusion**
+
+
+--> Our dataset contain 7787 rows and 12 columns.There was'nt any duplicates in dataset,
+and maximum number of null value was present in director column followed by cast.
+
+--> Only 31% of the content on Netflix is television, with movies accounting for 69% of the total.
+
+--> Raul Campos, jan suter was most famous directors among all.
+
+--> Anupam Kher is most popular actor on Netflix, followed by Takahiro Sakurai.
+
+--> By the end of of the current year and the beginning of the next, the majority of Netflix's content was released.
+
+--> International Movies and Dramas are topmost Genres on Netflix.
+
+--> Most of the content on Netflix is TV-MA(Mature Audience) rated.
+
+--> United states has the highest number of content on the netflix, followed by India.
+
+--> Most of the movies have duration of 90 mimutes.
+
+--> In title column we got 'Love', 'Man', 'World', 'Story', 'Life' seems very common word.
+
+--> Using PCA dimensionality reduction technique we have rediced components to 4000
+
+--> We have implemented 4 clustering model to divide the dataset in clusters.
+
+--> K-means clustering shows that '4' will be optimum no of clusters with the silhoutte score of 0.0057.
+
+--> We have built cosine based  recommender system  using cosine_similarity, which was wroking nicely.
+
